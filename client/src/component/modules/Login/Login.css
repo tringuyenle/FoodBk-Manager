@@ -1,0 +1,20 @@
+.l__ctn_flex{
+    position: relative;
+    top: 7rem;
+    border: 1px solid #c6c7c8;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 400px;
+}
+.l__ctn{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+}
+.wall__login{
+    height: 100vh;
+}
+.btn__login{
+    width: 100%;
+    margin-top: 20px;
+}

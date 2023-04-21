@@ -1,0 +1,43 @@
+.Sucess {
+    max-width: 670px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    height: calc(100vh - 69px);
+    display: flex;
+    align-items: center;
+}
+.Sucess .txt1{
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.Sucess .txt2{
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.Sucess .code{
+    font-size: 55px;
+    line-height: 63px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #ed1c24;
+    display: inline-block;
+    padding: 8px 37px;
+    margin-bottom: 20px;
+}
+.Sucess .txt3 p {
+    padding: 0;
+}
+.Sucess strong {
+    color: #ed1c24;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

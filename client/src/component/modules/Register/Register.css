@@ -1,0 +1,50 @@
+.btn____section {
+    display: flex;
+}
+
+.btn___item {
+    border: none;
+    margin-left: auto;
+    margin-top: 16px;
+    background-color: #fff;
+}
+.wall{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn__txt{
+    text-decoration: none;
+    /* background-color: #fff; */
+    width: 40%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: #00a5cf;
+    /* background: transparent; */
+    font-weight: 500;
+    padding: 0;
+}
+.res__ctn{
+    border: 1px solid #c6c7c8;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+.res__title{
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 30px;
+}
+.res__slogan{
+    font-family: inherit;
+    color: #606770;
+    font-size: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c6c7c8;
+}
+.form__ctn{
+    margin-top: 10px;
+}

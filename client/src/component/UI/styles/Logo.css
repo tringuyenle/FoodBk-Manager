@@ -1,0 +1,56 @@
+/**
+ * @author Hung, Ho Duc <https://github.com/iduchungho>
+ * @date 2022-10-29
+ */
+
+ 
+.logo {
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.icon {
+    width: 3.2rem;
+    display: flex;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.BK {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #030391;
+    font-weight: bold;
+    padding-right: 4px;
+    /* padding-bottom: 1px; */
+    /* margin-top: 4px; */
+}
+
+.food {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1488d8;
+    font-weight: bold;
+    /* font-size: 1rem !important; */
+    /* padding-bottom: 10px; */
+}
+@media only screen and (max-width: 600px){
+    .logo{
+        padding: 0px 15px 0px 15px;
+        display: flex;
+        font-size: 1rem;
+        justify-content: center;
+    }
+    
+    .icon {
+        width: 2rem;
+        display: flex;
+    }
+}

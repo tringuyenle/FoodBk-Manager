@@ -1,0 +1,18 @@
+.user___avt{
+    height: 38px;
+}
+.user___avt{
+    border-radius: 2rem;
+}
+.dropdown__item{
+    display: flex;
+}
+.dropdown__txt{
+    width: 100%;
+    font-family: inherit;
+}
+.dropdown__icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}

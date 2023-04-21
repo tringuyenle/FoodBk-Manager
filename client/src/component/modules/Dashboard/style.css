@@ -1,0 +1,32 @@
+.sideItem_box {
+    min-width:100px;
+    max-width:200px;
+    width:50%;
+    min-height:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* border */
+    border:1px solid #000;
+    /* border-radius */
+    border-radius:5px;
+    cursor: pointer;
+}
+
+/* hover  */
+.sideItem_box:hover {
+    background-color:#333;
+    color:#fff;
+}
+
+.col_3 {
+    height:100vh;
+    /* border-right */
+    border-right: 1px solid #d3d3d3;
+}
+
+.box{
+    height:100%;
+    width:100%;
+}

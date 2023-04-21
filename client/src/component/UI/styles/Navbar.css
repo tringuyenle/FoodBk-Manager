@@ -1,0 +1,39 @@
+/* @media only screen and (max-width: 600px) {
+    .nv-logo{
+        font-size: small;
+    }
+} */
+.nv-container{
+    justify-content: left !important;
+}
+.btn-gr{
+    margin-left: auto;
+    display: flex;
+}
+.cart-btn{
+    display: flex !important;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid rgb(201, 199, 199) !important;
+}
+.offcanvas-size-xl {
+    --bs-offcanvas-width: min(95vw, 550px) !important;
+}
+.offcanvas-size-md {
+    /* add Responsivenes to default offcanvas */
+    --bs-offcanvas-width: min(95vw, 400px) !important;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.cart-title{
+    margin-left: 20px;
+}
+.offcanvas-body1{
+    padding: 0 !important;
+}
+.ml__5px{
+    margin-left: 5px;
+    font-weight: bold;
+}

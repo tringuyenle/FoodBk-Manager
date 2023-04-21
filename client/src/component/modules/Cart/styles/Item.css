@@ -1,0 +1,241 @@
+.total-container{
+    margin-top: 50px;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+}
+.sum-price{
+    margin-left: auto;
+}
+.div-line{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 0.5px solid rgb(201, 199, 199) !important;
+}
+.TotalConfirm{
+    position: absolute;
+    padding: 16px;
+    background: #fff;
+    box-shadow: 0 -2px 6px 0 rgb(28 28 28 / 6%);
+    bottom: 0px;
+    width: 100%;
+}
+.cart-price-info{
+    display: flex;
+}
+.cart-total-price{
+    margin-left: auto;
+    font-weight: 500;
+}
+.btn-payment{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+}
+
+.item-container{
+    display: flex;
+    height: 145px;
+    width: 380px;
+    background-color: white;
+    color: black;
+    border-radius: 0.3rem;
+    border: 1.7px solid white;
+}
+.item-txt{
+    width: 100%;
+    padding: 10px;
+}
+.item-container:hover{
+    border: 1.7px solid #0d6efd;
+}
+.item-img{
+    border-radius: 0.5rem;
+    margin: 0.5em;
+}
+.item-description{
+    /* margin-top: 10px; */
+    height: 60px;
+    /* display: flex; */
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow: auto;
+    color: #9a9a9a;;
+}
+.item-description::-webkit-scrollbar{
+    width: 3px;
+}
+.item-description::-webkit-scrollbar-track{
+    background-color: #f7f7f7;
+}
+.item-description::-webkit-scrollbar-thumb{
+    background-color: #0d6efd;
+}
+.price_btn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.add-btn{
+    display: flex !important;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+    /* margin-bottom: 10px; */
+    border-radius: 0.5rem !important;
+}
+.offcanvas-size-xl {
+    --bs-offcanvas-width: min(95vw, 550px) !important;
+}
+.form_ctn{
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.form-ctn_top{
+    margin-top: 3rem;
+    border-top: 0.5rem solid #f1f1f1;
+    width: 100%;
+}
+
+.no-padding{
+    padding: 0 !important;
+}
+
+.add_to_cart{
+    background: #fff;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 -2px 6px 0 rgb(28 28 28 / 6%);
+    display: flex;
+}
+.add_to_cart-ctn{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    padding: 1rem;
+}
+.add_to_cart-btn{
+    display: flex;
+    width: 100%;
+
+}
+.add_to_cart-btn-primary{
+    width: 100%;
+}
+
+.btn-remove{
+    font-weight: 700;
+    color: #ee6352;
+    border: none;
+    background-color: white;
+}
+.food-container {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.food-img {
+    display: flex;
+    width: 3rem;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+
+.food-count {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 20%;
+    display: flex;
+}
+
+.food-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.food-price {
+    display: flex;
+    margin-left: auto;
+}
+
+.btn-count {
+    border: none !important;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fs__13px {
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #0d6efd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.food-img {
+    display: flex;
+    width: 3rem;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+.item-cart-ctn{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.i-img{
+    display: flex;
+    width: 4.5rem;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+.i-dec{
+    padding: 1rem;
+}
+.i-name{
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.i-price-count{
+    display: grid;
+}
+.i-a__price{
+    margin-right: auto;
+}
+.item-title{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.f-description{
+    color: #9a9a9a;
+    margin-left: 10px;
+}
+.cash{
+    font-weight: bold;
+    color: rgb(71, 99, 223);
+}
+@media only screen and (max-width: 600px){
+    .food-container {
+        display: flex;
+        align-items: center;
+        padding: 0 10px 0 0;
+    }
+}
