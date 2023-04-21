@@ -1,0 +1,61 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "mongodb"
+    url      = "mongodb+srv://iduchungho:r8oy879DNrdQsFdp@cluster0.jd2zgho.mongodb.net/food-db?retryWrites=true&w=majority"
+}
+
+model User {
+    id String @id @default(auto()) @map("_id") @db.ObjectId
+    username String @unique
+    email String @unique
+    password String
+    role String
+    avatarUrl String
+    avatarFileName String
+    trascations Transaction[]
+}
+
+model UploadFood {
+    id          String   @id @default(auto()) @map("_id") @db.ObjectId
+    title       String   @unique
+    price       String
+    category    String
+    rating      String
+    description String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+    imageUrl String
+    imageFileName String
+    transactionItems TransactionItem[]
+}
+
+model TransactionItem {
+    id            String      @id @default(auto()) @map("_id") @db.ObjectId
+    foodId        String
+    food          UploadFood  @relation(fields: [foodId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+    quantity      String      @default("1")
+    itemNote      String?
+    transactionID String
+    transaction   Transaction @relation(fields: [transactionID], references: [id], onDelete: Cascade, onUpdate: Cascade)
+}
+
+model Transaction {
+    id                String            @id @default(auto()) @map("_id") @db.ObjectId
+    userId            String
+    user              User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+    transactionItems  TransactionItem[]
+    createdAt         DateTime          @default(now())
+    updatedAt         DateTime          @updatedAt
+    typeOfTransaction String
+    status            String
+    address           String
+    phone             String
+    note              String
+    total             String
+}
